@@ -1,0 +1,14 @@
+.nav-link:hover{
+    color:orange !important;
+}
+
+root{
+
+    margin: 0px;
+    padding: 0px;
+}
+.section2 {
+    background-image: url(/assets/images/istockphoto-1216628493-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
