@@ -199,6 +199,8 @@ root {
 
 
 .design{
-    background-color: lightcoral;
+    background-color: rgb(197, 74, 74);
     border-radius: 0px 0px 20px 0px;
+    width: 350px;
+    height: 180px;
 }
