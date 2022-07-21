@@ -193,3 +193,6 @@ root {
     border-color: crimson;
    
 }
+.row{
+    --bs-gutter-x:0rem;
+}
