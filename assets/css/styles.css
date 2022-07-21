@@ -196,3 +196,9 @@ root {
 .row{
     --bs-gutter-x:0rem;
 }
+
+
+.design{
+    background-color: lightcoral;
+    border-radius: 0px 0px 20px 0px;
+}
