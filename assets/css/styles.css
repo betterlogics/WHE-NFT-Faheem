@@ -215,3 +215,34 @@ root {
     background-image: linear-gradient(to left top, #fd562a, rgba(211, 40, 83, .7), rgba(148, 31, 95, .8), #4f2155, #161634);
 
 }
+
+.icons-hover{
+    border: 1px solid #fd562a;
+    border-radius: 7px;
+    color: #fd562a;
+    padding: 4px;
+    width: 30px;
+    height: 30px;
+    transition-duration: 1s;
+}
+
+.icons-hover:hover{
+    background-color: #fd562a;
+    color: white;
+}
+
+
+.list{
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+}
+.footer{
+    text-decoration: none;
+    text-align: center;
+}
+.hover-list:hover{
+    color: #fd562a !important;
+    transition-duration: 0.8s;
+    
+}
