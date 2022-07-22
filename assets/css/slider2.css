@@ -1,16 +1,10 @@
-body {
-    margin: 0;
-    background: #EEE;
-    user-select: none;
-    font-family: sans-serif;
-}
 
 
 #slider {
     position: relative;
     width: 50%;
     height: 32vw;
-    margin: 150px auto;
+    margin: 0px  auto;
     font-family: 'Helvetica Neue', sans-serif;
     perspective: 1400px;
     transform-style: preserve-3d;
@@ -27,6 +21,7 @@ input[type=radio] {
     opacity: 0.4;
     transform: translateX(-83px);
     cursor: pointer;
+    display: none;
 }
 
 
