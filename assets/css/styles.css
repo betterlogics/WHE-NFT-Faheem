@@ -191,16 +191,27 @@ root {
     transition-duration: 1s;
     color: crimson;
     border-color: crimson;
-   
+
 }
-.row{
-    --bs-gutter-x:0rem;
+
+.row {
+    --bs-gutter-x: 0rem;
 }
 
 
-.design{
-    background-color: rgb(197, 74, 74);
+.design {
+    background-image: linear-gradient(to left top, #fd562a, rgba(211, 40, 83, .7), rgba(148, 31, 95, .8), #4f2155, #161634);
     border-radius: 0px 0px 20px 0px;
     width: 350px;
     height: 180px;
+}
+
+
+.outer {
+    box-shadow: 10px 10px #fd562a;
+}
+
+.inner {
+    background-image: linear-gradient(to left top, #fd562a, rgba(211, 40, 83, .7), rgba(148, 31, 95, .8), #4f2155, #161634);
+
 }
