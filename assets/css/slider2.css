@@ -1,4 +1,4 @@
-#slider {
+/* #slider {
   position: relative;
   width: 50%;
   height: 32vw;
@@ -98,4 +98,4 @@
 #s5:checked~#slide3 {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
   transform: translate3d(-40%, 0, -250px);
-}
+} */

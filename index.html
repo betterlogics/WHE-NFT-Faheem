@@ -15,9 +15,51 @@
 
     <link rel="stylesheet" href="/assets/css/slider2.css">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 
 
+
+
+
+
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #161634;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+        }
+    </style>
 </head>
+
+
+
 
 <body>
 
@@ -444,11 +486,11 @@
         </div>
     </div>
 
-    <div class="container-fluid bg-dark py-5">
+    <!-- <div class="container-fluid bg-dark py-5">
         <div id="slider">
 
 
-
+ 
             <input type="radio" name="slider" id="s1" checked>
             <input type="radio" name="slider" id="s2">
             <input type="radio" name="slider" id="s3">
@@ -460,11 +502,38 @@
             <label for="s2" id="slide2"><img src="/assets/images/166.png" alt=""></label>
             <label for="s3" id="slide3"><img src="/assets/images/2132.png" alt=""></label>
             <label for="s4" id="slide4"><img src="/assets/images/275.png" alt=""></label>
-            <label for="s5" id="slide5"><img src="/assets/images/99.png" alt=""></label>
+            <label for="s5" id="slide5"><img src="/assets/images/99.png" alt=""></label> 
+
+
+
 
         </div>
-    </div>
+    </div> -->
 
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="/assets/images/1140.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="/assets/images/166.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="/assets/images/1847.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="/assets/images/2132.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="/assets/images/231.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="/assets/images/275.png" />
+            </div>
+
+        </div>
+
+    </div>
 
 
 
@@ -576,6 +645,45 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            Loop: "auto",
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+
+
+
+
 
 
 
